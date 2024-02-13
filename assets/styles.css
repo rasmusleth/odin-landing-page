@@ -55,6 +55,9 @@ nav ul a {
   max-width: 1280px;
   margin: 0 auto;
   padding: 1rem;
+}
+
+.hero-container {
   display: flex;
   gap: 2rem;
 }
@@ -90,4 +93,34 @@ button {
   border: none;
   padding: 0.5rem 2rem;
   border-radius: 8px;
+}
+
+.info-section {
+  padding: 2rem 0;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  max-width: 720px;
+}
+
+.box-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.inside-box {
+  border: 3px solid #3882f6;
+  aspect-ratio: 1 / 1;
+  border-radius: 12px;
 }

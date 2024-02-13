@@ -29,15 +29,17 @@ html {
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 1rem;
   position: sticky;
   top: 0;
   background-color: #1f2937;
   color: white;
+}
+
+.nav-container {
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -151,4 +153,29 @@ button {
 
 .quote-author {
   font-weight: bold;
+}
+
+.cta-section {
+  padding: 4rem 0;
+}
+
+.cta-container {
+  padding: 3rem 6rem;
+  background-color: #3882f6;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
+button.cta {
+  border: 1px solid white;
+}
+
+footer {
+  background-color: #1f2937;
+  color: white;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
 }
